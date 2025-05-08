@@ -5,7 +5,6 @@ urls = ['https://www.reddit.com/search/?q=',
         'www.google.co.nz/search?q=',
         'https://www.youtube.com/results?search_query=']
 
-# site:[url] search query - this is how to search for something only in the limits
 # Allowing the system to take input for the python script
 def question():
     if len(sys.argv) > 1:
@@ -31,6 +30,5 @@ def otherSearch():
     else:
         print('Err')
 
-#query = urls[1]+question()
 otherSearch()
 

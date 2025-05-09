@@ -16,15 +16,17 @@ The _letter_of_search_ , is the reference for what the user is searching with.
 
 Please check the list below in what should may be used for searching.
 ```
--y Youtube
--g Google
--r Reddit
+-y -> Youtube
+-g -> Google
+-r -> Reddit
 ```
 example in how to run the program
 
 ```
 python3 web broswer.py -g how do I install python?
 ```
+
+[changelogs](https://github.com/BruceYoung19/Python-Terminal-Browser/blob/main/CHANGELOG.md)
 
 ## Updates to come
 - limiting search in google
